@@ -1,0 +1,7 @@
+
+version: v1
+name: Service
+configuration:
+  topics: ["java", "test"]
+  apps: ["azure-oidc"]
+  workflow: "hello-world-input.yaml"
